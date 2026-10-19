@@ -1,0 +1,26 @@
+{
+  "scale": 30,
+  "rows": 3241050,
+  "serial_seconds": 8.539860708027845,
+  "runs": [
+    {
+      "workers": 2,
+      "seconds": 5.89488400000846,
+      "speedup": 1.4486902045936085,
+      "efficiency": 0.7243451022968043
+    },
+    {
+      "workers": 4,
+      "seconds": 3.707841166993603,
+      "speedup": 2.3031894634667287,
+      "efficiency": 0.5757973658666822
+    },
+    {
+      "workers": 8,
+      "seconds": 3.7714923750027083,
+      "speedup": 2.264318699045948,
+      "efficiency": 0.2830398373807435
+    }
+  ],
+  "amdahl_serial_fraction": 0.3618673658167802
+}

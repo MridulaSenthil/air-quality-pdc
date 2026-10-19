@@ -36,3 +36,22 @@ def aqi_bucket(aqi):
     bins = [-np.inf, 50, 100, 200, 300, 400, np.inf]
     labels = ["Good", "Satisfactory", "Moderate", "Poor", "Very Poor", "Severe"]
     return pd.cut(aqi, bins=bins, labels=labels)
+LEVEL_NAMES = ["Good", "Satisfactory", "Moderate", "Poor", "Very Poor", "Severe"]
+
+
+def aqi_single(readings):
+    """AQI for one reading dict. Returns (aqi, main_pollutant) or (None, None)."""
+    sub = {p: float(np.interp(v, BREAKPOINTS[p], AQI_POINTS))
+           for p, v in readings.items() if p in BREAKPOINTS and v is not None}
+    if len(sub) < 3 or not ("PM2.5" in sub or "PM10" in sub):
+        return None, None
+    main = max(sub, key=sub.get)
+    return round(sub[main]), main
+
+
+def aqi_level(aqi):
+    """0=Good ... 5=Severe"""
+    for i, limit in enumerate([50, 100, 200, 300, 400]):
+        if aqi <= limit:
+            return i
+    return 5
