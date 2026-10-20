@@ -1,0 +1,319 @@
+Simulating 110 stations in 26 cities. Ctrl+C to stop.
+tick    1 | sim 2026-10-20 11:00 | sent 110 readings
+tick    2 | sim 2026-10-20 12:00 | sent 110 readings
+tick    3 | sim 2026-10-20 13:00 | sent 110 readings
+tick    4 | sim 2026-10-20 14:00 | sent 110 readings
+tick    5 | sim 2026-10-20 15:00 | sent 110 readings
+tick    6 | sim 2026-10-20 16:00 | sent 110 readings
+tick    7 | sim 2026-10-20 17:00 | sent 110 readings
+tick    8 | sim 2026-10-20 18:00 | sent 110 readings
+tick    9 | sim 2026-10-20 19:00 | sent 110 readings
+tick   10 | sim 2026-10-20 20:00 | sent 110 readings
+  >>> POLLUTION EVENT in Visakhapatnam (x3.2)
+tick   11 | sim 2026-10-20 21:00 | sent 110 readings
+tick   12 | sim 2026-10-20 22:00 | sent 110 readings
+tick   13 | sim 2026-10-20 23:00 | sent 110 readings
+tick   14 | sim 2026-10-21 00:00 | sent 110 readings
+tick   15 | sim 2026-10-21 01:00 | sent 110 readings
+  >>> POLLUTION EVENT in Kochi (x2.7)
+tick   16 | sim 2026-10-21 02:00 | sent 110 readings
+  >>> POLLUTION EVENT in Lucknow (x3.5)
+tick   17 | sim 2026-10-21 03:00 | sent 110 readings
+tick   18 | sim 2026-10-21 04:00 | sent 110 readings
+tick   19 | sim 2026-10-21 05:00 | sent 110 readings
+tick   20 | sim 2026-10-21 06:00 | sent 110 readings
+tick   21 | sim 2026-10-21 07:00 | sent 110 readings
+tick   22 | sim 2026-10-21 08:00 | sent 110 readings
+tick   23 | sim 2026-10-21 09:00 | sent 110 readings
+tick   24 | sim 2026-10-21 10:00 | sent 110 readings
+tick   25 | sim 2026-10-21 11:00 | sent 110 readings
+tick   26 | sim 2026-10-21 12:00 | sent 110 readings
+  >>> POLLUTION EVENT in Patna (x3.5)
+tick   27 | sim 2026-10-21 13:00 | sent 110 readings
+tick   28 | sim 2026-10-21 14:00 | sent 110 readings
+tick   29 | sim 2026-10-21 15:00 | sent 110 readings
+tick   30 | sim 2026-10-21 16:00 | sent 110 readings
+tick   31 | sim 2026-10-21 17:00 | sent 110 readings
+tick   32 | sim 2026-10-21 18:00 | sent 110 readings
+  >>> POLLUTION EVENT in Amritsar (x2.9)
+tick   33 | sim 2026-10-21 19:00 | sent 110 readings
+tick   34 | sim 2026-10-21 20:00 | sent 110 readings
+tick   35 | sim 2026-10-21 21:00 | sent 110 readings
+tick   36 | sim 2026-10-21 22:00 | sent 110 readings
+tick   37 | sim 2026-10-21 23:00 | sent 110 readings
+tick   38 | sim 2026-10-22 00:00 | sent 110 readings
+tick   39 | sim 2026-10-22 01:00 | sent 110 readings
+tick   40 | sim 2026-10-22 02:00 | sent 110 readings
+tick   41 | sim 2026-10-22 03:00 | sent 110 readings
+tick   42 | sim 2026-10-22 04:00 | sent 110 readings
+tick   43 | sim 2026-10-22 05:00 | sent 110 readings
+tick   44 | sim 2026-10-22 06:00 | sent 110 readings
+tick   45 | sim 2026-10-22 07:00 | sent 110 readings
+  >>> POLLUTION EVENT in Ahmedabad (x3.7)
+tick   46 | sim 2026-10-22 08:00 | sent 110 readings
+  >>> POLLUTION EVENT in Kochi (x3.9)
+tick   47 | sim 2026-10-22 09:00 | sent 110 readings
+tick   48 | sim 2026-10-22 10:00 | sent 110 readings
+tick   49 | sim 2026-10-22 11:00 | sent 110 readings
+tick   50 | sim 2026-10-22 12:00 | sent 110 readings
+  >>> POLLUTION EVENT in Lucknow (x2.7)
+tick   51 | sim 2026-10-22 13:00 | sent 110 readings
+tick   52 | sim 2026-10-22 14:00 | sent 110 readings
+tick   53 | sim 2026-10-22 15:00 | sent 110 readings
+tick   54 | sim 2026-10-22 16:00 | sent 110 readings
+  >>> POLLUTION EVENT in Brajrajnagar (x3.3)
+tick   55 | sim 2026-10-22 17:00 | sent 110 readings
+  >>> POLLUTION EVENT in Jaipur (x3.3)
+tick   56 | sim 2026-10-22 18:00 | sent 110 readings
+tick   57 | sim 2026-10-22 19:00 | sent 110 readings
+tick   58 | sim 2026-10-22 20:00 | sent 110 readings
+tick   59 | sim 2026-10-22 21:00 | sent 110 readings
+tick   60 | sim 2026-10-22 22:00 | sent 110 readings
+tick   61 | sim 2026-10-22 23:00 | sent 110 readings
+tick   62 | sim 2026-10-23 00:00 | sent 110 readings
+tick   63 | sim 2026-10-23 01:00 | sent 110 readings
+tick   64 | sim 2026-10-23 02:00 | sent 110 readings
+tick   65 | sim 2026-10-23 03:00 | sent 110 readings
+  >>> POLLUTION EVENT in Amritsar (x3.1)
+tick   66 | sim 2026-10-23 04:00 | sent 110 readings
+tick   67 | sim 2026-10-23 05:00 | sent 110 readings
+  >>> POLLUTION EVENT in Ernakulam (x3.8)
+tick   68 | sim 2026-10-23 06:00 | sent 110 readings
+tick   69 | sim 2026-10-23 07:00 | sent 110 readings
+tick   70 | sim 2026-10-23 08:00 | sent 110 readings
+tick   71 | sim 2026-10-23 09:00 | sent 110 readings
+tick   72 | sim 2026-10-23 10:00 | sent 110 readings
+tick   73 | sim 2026-10-23 11:00 | sent 110 readings
+tick   74 | sim 2026-10-23 12:00 | sent 110 readings
+tick   75 | sim 2026-10-23 13:00 | sent 110 readings
+tick   76 | sim 2026-10-23 14:00 | sent 110 readings
+tick   77 | sim 2026-10-23 15:00 | sent 110 readings
+tick   78 | sim 2026-10-23 16:00 | sent 110 readings
+tick   79 | sim 2026-10-23 17:00 | sent 110 readings
+  >>> POLLUTION EVENT in Patna (x2.6)
+tick   80 | sim 2026-10-23 18:00 | sent 110 readings
+tick   81 | sim 2026-10-23 19:00 | sent 110 readings
+tick   82 | sim 2026-10-23 20:00 | sent 110 readings
+tick   83 | sim 2026-10-23 21:00 | sent 110 readings
+tick   84 | sim 2026-10-23 22:00 | sent 110 readings
+tick   85 | sim 2026-10-23 23:00 | sent 110 readings
+  >>> POLLUTION EVENT in Mumbai (x3.5)
+tick   86 | sim 2026-10-24 00:00 | sent 110 readings
+tick   87 | sim 2026-10-24 01:00 | sent 110 readings
+tick   88 | sim 2026-10-24 02:00 | sent 110 readings
+tick   89 | sim 2026-10-24 03:00 | sent 110 readings
+tick   90 | sim 2026-10-24 04:00 | sent 110 readings
+tick   91 | sim 2026-10-24 05:00 | sent 110 readings
+tick   92 | sim 2026-10-24 06:00 | sent 110 readings
+  >>> POLLUTION EVENT in Visakhapatnam (x3.0)
+tick   93 | sim 2026-10-24 07:00 | sent 110 readings
+tick   94 | sim 2026-10-24 08:00 | sent 110 readings
+tick   95 | sim 2026-10-24 09:00 | sent 110 readings
+tick   96 | sim 2026-10-24 10:00 | sent 110 readings
+tick   97 | sim 2026-10-24 11:00 | sent 110 readings
+tick   98 | sim 2026-10-24 12:00 | sent 110 readings
+tick   99 | sim 2026-10-24 13:00 | sent 110 readings
+tick  100 | sim 2026-10-24 14:00 | sent 110 readings
+tick  101 | sim 2026-10-24 15:00 | sent 110 readings
+  >>> POLLUTION EVENT in Brajrajnagar (x3.9)
+tick  102 | sim 2026-10-24 16:00 | sent 110 readings
+tick  103 | sim 2026-10-24 17:00 | sent 110 readings
+tick  104 | sim 2026-10-24 18:00 | sent 110 readings
+tick  105 | sim 2026-10-24 19:00 | sent 110 readings
+tick  106 | sim 2026-10-24 20:00 | sent 110 readings
+tick  107 | sim 2026-10-24 21:00 | sent 110 readings
+tick  108 | sim 2026-10-24 22:00 | sent 110 readings
+  >>> POLLUTION EVENT in Jaipur (x3.4)
+tick  109 | sim 2026-10-24 23:00 | sent 110 readings
+tick  110 | sim 2026-10-25 00:00 | sent 110 readings
+tick  111 | sim 2026-10-25 01:00 | sent 110 readings
+tick  112 | sim 2026-10-25 02:00 | sent 110 readings
+tick  113 | sim 2026-10-25 03:00 | sent 110 readings
+tick  114 | sim 2026-10-25 04:00 | sent 110 readings
+tick  115 | sim 2026-10-25 05:00 | sent 110 readings
+tick  116 | sim 2026-10-25 06:00 | sent 110 readings
+  >>> POLLUTION EVENT in Patna (x2.8)
+tick  117 | sim 2026-10-25 07:00 | sent 110 readings
+tick  118 | sim 2026-10-25 08:00 | sent 110 readings
+tick  119 | sim 2026-10-25 09:00 | sent 110 readings
+tick  120 | sim 2026-10-25 10:00 | sent 110 readings
+tick  121 | sim 2026-10-25 11:00 | sent 110 readings
+  >>> POLLUTION EVENT in Amaravati (x3.2)
+tick  122 | sim 2026-10-25 12:00 | sent 110 readings
+tick  123 | sim 2026-10-25 13:00 | sent 110 readings
+tick  124 | sim 2026-10-25 14:00 | sent 110 readings
+tick  125 | sim 2026-10-25 15:00 | sent 110 readings
+tick  126 | sim 2026-10-25 16:00 | sent 110 readings
+tick  127 | sim 2026-10-25 17:00 | sent 110 readings
+tick  128 | sim 2026-10-25 18:00 | sent 110 readings
+tick  129 | sim 2026-10-25 19:00 | sent 110 readings
+tick  130 | sim 2026-10-25 20:00 | sent 110 readings
+tick  131 | sim 2026-10-25 21:00 | sent 110 readings
+tick  132 | sim 2026-10-25 22:00 | sent 110 readings
+  >>> POLLUTION EVENT in Bhopal (x2.9)
+tick  133 | sim 2026-10-25 23:00 | sent 110 readings
+  >>> POLLUTION EVENT in Lucknow (x3.8)
+tick  134 | sim 2026-10-26 00:00 | sent 110 readings
+tick  135 | sim 2026-10-26 01:00 | sent 110 readings
+tick  136 | sim 2026-10-26 02:00 | sent 110 readings
+tick  137 | sim 2026-10-26 03:00 | sent 110 readings
+tick  138 | sim 2026-10-26 04:00 | sent 110 readings
+tick  139 | sim 2026-10-26 05:00 | sent 110 readings
+tick  140 | sim 2026-10-26 06:00 | sent 110 readings
+tick  141 | sim 2026-10-26 07:00 | sent 110 readings
+tick  142 | sim 2026-10-26 08:00 | sent 110 readings
+tick  143 | sim 2026-10-26 09:00 | sent 110 readings
+tick  144 | sim 2026-10-26 10:00 | sent 110 readings
+tick  145 | sim 2026-10-26 11:00 | sent 110 readings
+tick  146 | sim 2026-10-26 12:00 | sent 110 readings
+tick  147 | sim 2026-10-26 13:00 | sent 110 readings
+tick  148 | sim 2026-10-26 14:00 | sent 110 readings
+  >>> POLLUTION EVENT in Aizawl (x2.6)
+tick  149 | sim 2026-10-26 15:00 | sent 110 readings
+tick  150 | sim 2026-10-26 16:00 | sent 110 readings
+  >>> POLLUTION EVENT in Aizawl (x3.0)
+tick  151 | sim 2026-10-26 17:00 | sent 110 readings
+tick  152 | sim 2026-10-26 18:00 | sent 110 readings
+tick  153 | sim 2026-10-26 19:00 | sent 110 readings
+  >>> POLLUTION EVENT in Visakhapatnam (x3.4)
+tick  154 | sim 2026-10-26 20:00 | sent 110 readings
+tick  155 | sim 2026-10-26 21:00 | sent 110 readings
+tick  156 | sim 2026-10-26 22:00 | sent 110 readings
+  >>> POLLUTION EVENT in Mumbai (x2.7)
+tick  157 | sim 2026-10-26 23:00 | sent 110 readings
+  >>> POLLUTION EVENT in Mumbai (x3.4)
+tick  158 | sim 2026-10-27 00:00 | sent 110 readings
+tick  159 | sim 2026-10-27 01:00 | sent 110 readings
+tick  160 | sim 2026-10-27 02:00 | sent 110 readings
+tick  161 | sim 2026-10-27 03:00 | sent 110 readings
+tick  162 | sim 2026-10-27 04:00 | sent 110 readings
+  >>> POLLUTION EVENT in Bengaluru (x3.0)
+tick  163 | sim 2026-10-27 05:00 | sent 110 readings
+tick  164 | sim 2026-10-27 06:00 | sent 110 readings
+  >>> POLLUTION EVENT in Bengaluru (x2.9)
+tick  165 | sim 2026-10-27 07:00 | sent 110 readings
+tick  166 | sim 2026-10-27 08:00 | sent 110 readings
+tick  167 | sim 2026-10-27 09:00 | sent 110 readings
+tick  168 | sim 2026-10-27 10:00 | sent 110 readings
+tick  169 | sim 2026-10-27 11:00 | sent 110 readings
+tick  170 | sim 2026-10-27 12:00 | sent 110 readings
+tick  171 | sim 2026-10-27 13:00 | sent 110 readings
+tick  172 | sim 2026-10-27 14:00 | sent 110 readings
+tick  173 | sim 2026-10-27 15:00 | sent 110 readings
+  >>> POLLUTION EVENT in Kolkata (x3.5)
+tick  174 | sim 2026-10-27 16:00 | sent 110 readings
+tick  175 | sim 2026-10-27 17:00 | sent 110 readings
+tick  176 | sim 2026-10-27 18:00 | sent 110 readings
+tick  177 | sim 2026-10-27 19:00 | sent 110 readings
+tick  178 | sim 2026-10-27 20:00 | sent 110 readings
+tick  179 | sim 2026-10-27 21:00 | sent 110 readings
+  >>> POLLUTION EVENT in Hyderabad (x3.8)
+tick  180 | sim 2026-10-27 22:00 | sent 110 readings
+tick  181 | sim 2026-10-27 23:00 | sent 110 readings
+tick  182 | sim 2026-10-28 00:00 | sent 110 readings
+  >>> POLLUTION EVENT in Guwahati (x2.9)
+tick  183 | sim 2026-10-28 01:00 | sent 110 readings
+tick  184 | sim 2026-10-28 02:00 | sent 110 readings
+tick  185 | sim 2026-10-28 03:00 | sent 110 readings
+tick  186 | sim 2026-10-28 04:00 | sent 110 readings
+  >>> POLLUTION EVENT in Jorapokhar (x2.7)
+tick  187 | sim 2026-10-28 05:00 | sent 110 readings
+tick  188 | sim 2026-10-28 06:00 | sent 110 readings
+tick  189 | sim 2026-10-28 07:00 | sent 110 readings
+tick  190 | sim 2026-10-28 08:00 | sent 110 readings
+  >>> POLLUTION EVENT in Talcher (x3.6)
+tick  191 | sim 2026-10-28 09:00 | sent 110 readings
+tick  192 | sim 2026-10-28 10:00 | sent 110 readings
+tick  193 | sim 2026-10-28 11:00 | sent 110 readings
+tick  194 | sim 2026-10-28 12:00 | sent 110 readings
+tick  195 | sim 2026-10-28 13:00 | sent 110 readings
+tick  196 | sim 2026-10-28 14:00 | sent 110 readings
+  >>> POLLUTION EVENT in Ahmedabad (x3.5)
+tick  197 | sim 2026-10-28 15:00 | sent 110 readings
+tick  198 | sim 2026-10-28 16:00 | sent 110 readings
+tick  199 | sim 2026-10-28 17:00 | sent 110 readings
+tick  200 | sim 2026-10-28 18:00 | sent 110 readings
+tick  201 | sim 2026-10-28 19:00 | sent 110 readings
+tick  202 | sim 2026-10-28 20:00 | sent 110 readings
+tick  203 | sim 2026-10-28 21:00 | sent 110 readings
+tick  204 | sim 2026-10-28 22:00 | sent 110 readings
+tick  205 | sim 2026-10-28 23:00 | sent 110 readings
+tick  206 | sim 2026-10-29 00:00 | sent 110 readings
+tick  207 | sim 2026-10-29 01:00 | sent 110 readings
+tick  208 | sim 2026-10-29 02:00 | sent 110 readings
+tick  209 | sim 2026-10-29 03:00 | sent 110 readings
+tick  210 | sim 2026-10-29 04:00 | sent 110 readings
+tick  211 | sim 2026-10-29 05:00 | sent 110 readings
+tick  212 | sim 2026-10-29 06:00 | sent 110 readings
+tick  213 | sim 2026-10-29 07:00 | sent 110 readings
+  >>> POLLUTION EVENT in Shillong (x3.9)
+tick  214 | sim 2026-10-29 08:00 | sent 110 readings
+tick  215 | sim 2026-10-29 09:00 | sent 110 readings
+tick  216 | sim 2026-10-29 10:00 | sent 110 readings
+tick  217 | sim 2026-10-29 11:00 | sent 110 readings
+tick  218 | sim 2026-10-29 12:00 | sent 110 readings
+  >>> POLLUTION EVENT in Bengaluru (x2.8)
+tick  219 | sim 2026-10-29 13:00 | sent 110 readings
+tick  220 | sim 2026-10-29 14:00 | sent 110 readings
+tick  221 | sim 2026-10-29 15:00 | sent 110 readings
+tick  222 | sim 2026-10-29 16:00 | sent 110 readings
+tick  223 | sim 2026-10-29 17:00 | sent 110 readings
+tick  224 | sim 2026-10-29 18:00 | sent 110 readings
+tick  225 | sim 2026-10-29 19:00 | sent 110 readings
+  >>> POLLUTION EVENT in Gurugram (x2.9)
+tick  226 | sim 2026-10-29 20:00 | sent 110 readings
+tick  227 | sim 2026-10-29 21:00 | sent 110 readings
+tick  228 | sim 2026-10-29 22:00 | sent 110 readings
+tick  229 | sim 2026-10-29 23:00 | sent 110 readings
+tick  230 | sim 2026-10-30 00:00 | sent 110 readings
+tick  231 | sim 2026-10-30 01:00 | sent 110 readings
+tick  232 | sim 2026-10-30 02:00 | sent 110 readings
+tick  233 | sim 2026-10-30 03:00 | sent 110 readings
+tick  234 | sim 2026-10-30 04:00 | sent 110 readings
+tick  235 | sim 2026-10-30 05:00 | sent 110 readings
+tick  236 | sim 2026-10-30 06:00 | sent 110 readings
+tick  237 | sim 2026-10-30 07:00 | sent 110 readings
+tick  238 | sim 2026-10-30 08:00 | sent 110 readings
+tick  239 | sim 2026-10-30 09:00 | sent 110 readings
+tick  240 | sim 2026-10-30 10:00 | sent 110 readings
+tick  241 | sim 2026-10-30 11:00 | sent 110 readings
+tick  242 | sim 2026-10-30 12:00 | sent 110 readings
+tick  243 | sim 2026-10-30 13:00 | sent 110 readings
+  >>> POLLUTION EVENT in Amritsar (x2.8)
+tick  244 | sim 2026-10-30 14:00 | sent 110 readings
+tick  245 | sim 2026-10-30 15:00 | sent 110 readings
+tick  246 | sim 2026-10-30 16:00 | sent 110 readings
+tick  247 | sim 2026-10-30 17:00 | sent 110 readings
+tick  248 | sim 2026-10-30 18:00 | sent 110 readings
+tick  249 | sim 2026-10-30 19:00 | sent 110 readings
+tick  250 | sim 2026-10-30 20:00 | sent 110 readings
+tick  251 | sim 2026-10-30 21:00 | sent 110 readings
+tick  252 | sim 2026-10-30 22:00 | sent 110 readings
+tick  253 | sim 2026-10-30 23:00 | sent 110 readings
+tick  254 | sim 2026-10-31 00:00 | sent 110 readings
+tick  255 | sim 2026-10-31 01:00 | sent 110 readings
+tick  256 | sim 2026-10-31 02:00 | sent 110 readings
+  >>> POLLUTION EVENT in Bhopal (x3.7)
+tick  257 | sim 2026-10-31 03:00 | sent 110 readings
+tick  258 | sim 2026-10-31 04:00 | sent 110 readings
+tick  259 | sim 2026-10-31 05:00 | sent 110 readings
+tick  260 | sim 2026-10-31 06:00 | sent 110 readings
+tick  261 | sim 2026-10-31 07:00 | sent 110 readings
+tick  262 | sim 2026-10-31 08:00 | sent 110 readings
+tick  263 | sim 2026-10-31 09:00 | sent 110 readings
+tick  264 | sim 2026-10-31 10:00 | sent 110 readings
+tick  265 | sim 2026-10-31 11:00 | sent 110 readings
+tick  266 | sim 2026-10-31 12:00 | sent 110 readings
+tick  267 | sim 2026-10-31 13:00 | sent 110 readings
+tick  268 | sim 2026-10-31 14:00 | sent 110 readings
+tick  269 | sim 2026-10-31 15:00 | sent 110 readings
+tick  270 | sim 2026-10-31 16:00 | sent 110 readings
+tick  271 | sim 2026-10-31 17:00 | sent 110 readings
+tick  272 | sim 2026-10-31 18:00 | sent 110 readings
+tick  273 | sim 2026-10-31 19:00 | sent 110 readings
+tick  274 | sim 2026-10-31 20:00 | sent 110 readings
+tick  275 | sim 2026-10-31 21:00 | sent 110 readings
+tick  276 | sim 2026-10-31 22:00 | sent 110 readings
+tick  277 | sim 2026-10-31 23:00 | sent 110 readings
+tick  278 | sim 2026-11-01 00:00 | sent 110 readings
+tick  279 | sim 2026-11-01 01:00 | sent 110 readings
