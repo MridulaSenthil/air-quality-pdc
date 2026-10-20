@@ -41,6 +41,7 @@ def main():
     try:
         while args.ticks == 0 or tick < args.ticks:
             tick += 1
+            sim_time = datetime.now().replace(microsecond=0)
             if random.random() < 0.15:             # start a new pollution event
                 city = random.choice(cities)
                 events[city] = [random.uniform(2.5, 4.0), 3]

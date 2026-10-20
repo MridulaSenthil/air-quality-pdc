@@ -51,6 +51,8 @@ th{text-align:left;color:var(--mut);font-weight:600;padding:6px}td{padding:6px;b
 .wk i{width:10px;height:10px;border-radius:50%}.wk.on i{background:#22e58a;box-shadow:0 0 10px #22e58a}.wk.off i{background:#ff3b3b}
 .wk small{color:var(--mut);margin-left:auto}
 #perfNote{margin-top:12px;color:var(--mut);font-size:13px;line-height:1.6}#perfNote b{color:#fff}
+.leaflet-control-layers{background:rgba(18,26,46,.92);color:#e8ecf4;border:1px solid #2a3552;border-radius:10px;padding:2px 4px}
+.leaflet-control-layers label{margin:4px 0;cursor:pointer}
 .leaflet-tooltip{background:#121a2e;color:#e8ecf4;border:1px solid #2a3552;border-radius:8px}
 .leaflet-tooltip-top:before{border-top-color:#121a2e}
 .pulse{animation:pl 1.3s ease-out infinite}
@@ -129,10 +131,19 @@ const getJSON=async u=>(await fetch(u)).json();
 
 /* ---------- map ---------- */
 const map=L.map('map').setView([22.5,79],5);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{attribution:'© OpenStreetMap © CARTO',maxZoom:12,subdomains:'abcd'}).addTo(map);
+const esri='https://server.arcgisonline.com/ArcGIS/rest/services/';
+const dark=L.layerGroup([
+  L.tileLayer(esri+'Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles © Esri',maxZoom:13}),
+  L.tileLayer(esri+'Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxZoom:13})]);
+const sat=L.layerGroup([
+  L.tileLayer(esri+'World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles © Esri, Maxar, Earthstar Geographics',maxZoom:13}),
+  L.tileLayer(esri+'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:13})]);
+const street=L.tileLayer(esri+'World_Street_Map/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles © Esri',maxZoom:13});
+dark.addTo(map);
+const ctl=L.control.layers({'🌑 Dark':dark,'🛰 Satellite':sat,'🗺 Street':street},{},{position:'topright',collapsed:false}).addTo(map);
 const heat=L.heatLayer?L.heatLayer([],{radius:34,blur:30,maxZoom:8,max:1,
   gradient:{0.1:'#22e58a',0.35:'#ffd23f',0.55:'#ff8c1a',0.75:'#ff3b3b',1:'#d4005a'}}).addTo(map):null;
-
+if(heat)ctl.addOverlay(heat,'🔥 Heat glow');
 function updateMap(){
   const pts=[];
   for(const r of Object.values(live)){
@@ -164,7 +175,7 @@ function renderStats(s){
     $('worstsub').textContent=`${s.worst.city} · AQI ${s.worst.aqi}`;}
   $('alerts').textContent=s.alerts_total;$('stations').textContent=`${s.stations} stations reporting`;
   $('rate').textContent=s.rate;
-  if(s.sim_time)$('simtime').textContent='Simulated time: '+s.sim_time.replace('T',' ').slice(0,16);
+  if(s.sim_time)$('simtime').textContent='Simulated sensor feed: '+s.sim_time.replace('T',' ').slice(0,16);
   $('workers').innerHTML=s.workers.map(w=>`<div class="wk ${w.online?'on':'off'}"><i></i><b>${w.id}</b>
     <small>${w.online?'partitions ['+w.partitions.join(', ')+']':'offline'} · ${w.count.toLocaleString()} readings</small></div>`).join('')||'Waiting for workers…';
 }
