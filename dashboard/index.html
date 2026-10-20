@@ -281,6 +281,9 @@ async function loadPerf(){
   $('perfNote').innerHTML=`Workload: <b>${b.rows.toLocaleString()}</b> rows<br>Serial time: <b>${b.serial_seconds.toFixed(2)} s</b><br>
     Best speedup: <b>${Math.max(...b.runs.map(x=>x.speedup)).toFixed(2)}×</b><br>
     Estimated serial fraction: <b>${(f*100).toFixed(0)}%</b> → Amdahl's law caps speedup near <b>${(1/f).toFixed(1)}×</b>`;
+    $('perfNote').insertAdjacentHTML('beforeend',`<table style="margin-top:14px"><tr><th>Execution</th><th>Workers</th><th>Time (s)</th><th>Speedup</th></tr>
+     <tr><td>Sequential</td><td>1</td><td><b>${b.serial_seconds.toFixed(2)}</b></td><td>1.00×</td></tr>`+
+     b.runs.map(x=>`<tr><td>Parallel</td><td>${x.workers}</td><td><b>${x.seconds.toFixed(2)}</b></td><td>${x.speedup.toFixed(2)}×</td></tr>`).join('')+`</table>`);
 }
 
 /* ---------- tabs ---------- */
